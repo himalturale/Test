@@ -14,5 +14,9 @@ public class TestController {
 		map.addAttribute("test", new Test());
 		return "TestRegister";
 	}
+	@requestMapping("/register")
+	public String saveData1(ModelMap map) {
+		
+	}
 
 }
